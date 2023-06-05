@@ -1,0 +1,42 @@
+npm create vite@latest //create new project
+
+function handleSubmit(e){ 
+	e.preventDefault();//Submit form without refresh page
+}
+
+<form className="" onSubmit={handleSubmit}>
+
+</form>
+
+const [nowState, setState]=useState([]) // nowState=[]
+
+setState((curr)=>{
+	return [...curr,newItem]
+})
+
+setState((curr)=>{
+	return curr.map(item=>{
+		if(item.id===id){
+			return {...item,attr:var}	
+		}
+	})
+})
+
+onClick{()=>myFunc(var)} // always use a function to call myFunc
+
+useEffect(()=>{ //fetch data from backen from the begining
+	fetchFromBackend();
+},[])
+
+
+import.meta.env.VITE_myVar //in .env file under vite framework
+
+useContext from react-router-dom //used to export global value for whole app
+
+useNavigate from react-router-dom// direct to another non-child page
+const navigate=useNavigate();
+
+navigate('/path',{state:myProps});
+
+const myProps=useLocation().state // in non child component
+

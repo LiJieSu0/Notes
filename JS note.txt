@@ -1,0 +1,29 @@
+Dictionary
+	Iterate key and value through object;
+	for (const [key, value] of Object.entries(myObj){
+  		console.log(key, value);
+	}		
+
+Array
+	arr.includes(n)//true or false, to check n is in arr or not.	
+
+String
+	str.replace("1","2")// 1 replace to 2
+
+JSON
+	JSON.stringify(obj);
+
+
+Date, Time
+	const dateStr= new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
+	console.log(dateStr); // "5/28/2023, 10:09:02 PM"
+
+General
+
+	export default function myFunc()//only 1 default
+	import myName from './myFunc' //the name could be changed since it export default
+
+	export function myFunc() 
+	export myVar
+	import {myFunc, myVar} from './myFunc' //same as the module
+		
