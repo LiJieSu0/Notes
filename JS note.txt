@@ -3,9 +3,23 @@ Dictionary
 	for (const [key, value] of Object.entries(myObj){
   		console.log(key, value);
 	}		
-
+Map
+	let myMap=new Map();
+	myMap.set(key,value);
+	myMap.get(key);
+	myMap.delete(key);
+	myMap.size;//return map size
+	
+Set 
+	let mySet=new Set(myArr);
+	mySet.add(1);
+	mySet.has(1)//return true;
+	mySet.size//return set size
+	
 Array
 	arr.includes(n)//true or false, to check n is in arr or not.	
+	arr.slice(start,end-1) // return 
+
 
 String
 	str.replace("1","2")// 1 replace to 2

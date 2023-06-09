@@ -1,0 +1,15 @@
+docker run use an image to create container
+docker start is to restart the container created
+
+docker exec -it ContainerID(or names) /bin/bash ### get into the bash of the container environment, use exit in bash to leave container
+
+docker network ls ###shows all network in docker
+docker newtork create myNetwork ### create my own network setting
+
+docker-compose -f myYAML.yaml up ### for set up a container with a yaml file
+
+docker build -t my-app:ver_1.0.0 ./ ### need to provide a location for the image file
+rename the file as "Dockerfile" to build 
+ 
+docker volume for data persistence
+
